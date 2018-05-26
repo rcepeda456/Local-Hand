@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link href="http://allfont.net/allfont.css?fonts=futura-normal" rel="stylesheet" type="text/css" />
+        <link href="http://allfont.net/allfont.css?fonts=futura-bold" rel="stylesheet" type="text/css" />
+        <link href="http://allfont.net/allfont.css?fonts=kaufmann-bt" rel="stylesheet" type="text/css" />
+        <link href="http://allfont.net/allfont.css?fonts=souvenir" rel="stylesheet" type="text/css" />
+
+    <title>Web Programming</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="CMP 464 - Web Programming","schedule">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Doug Accatino, Claudia Rodriguez">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="chatlio.js"></script>
+    <script type="text/javascript" src="scrollBtn.js"></script>
+    <script type="text/javascript" src="navBar.js"></script>
+
+</head>
+
+<div class="topnav" id="myTopnav">
+        <a href="homePage.html" class="active">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="courseRequirements.html">Course Requirements</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <h2>Tentative Course Schedule</h2>
+    <hr>
+
+    <p name="Schedule">
+        May change to accomodate guest presenters & student needs.
+        <br>
+        <br>
+        <table style="width:100%" , border="5" , id="ScheduleTable">
+            <tr id="TableColumnHeading">
+                <th>Lecture</th>
+                <th>Date</th>
+                <th>Content</th>
+                <th>Readings</th>
+                <th>Assigned</th>
+                <th>Due</th>
+            </tr>
+            <tr id="week0">
+                <td>0</td>
+                <td>Jan. 27</td>
+                <td>Intro</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+            <tr id="week1">
+                <td>1</td>
+                <td>Feb. 5</td>
+                <td>Slack, HTML, Editors, Dev Tools, CSS, URL composition, color representation, accessibility</td>
+                <td>HTML (except forms)</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+            <tr id="week2">
+                <td>--</td>
+                <td>Skip Week</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+            <tr id="week3">
+                <td>2</td>
+                <td>Feb. 20 (Tues.)</td>
+                <td>CSS (classes, selectors, hover, breakpoints, embedded vs. linked, units of measure, box model, transitions,
+                    etc.), responsive design (media queries), design tools, design considerations (performance, cognition,
+                    etc.), browser discrepancies, git/GitHub, social media sharing (OpenGraph, etc.), design patterns/antipatterns</td>
+                <td>CSS (except forms)</td>
+                <td>HW-1</td>
+                <td>--</td>
+            </tr>
+            <tr id="week4">
+                <td>3</td>
+                <td>Feb. 26</td>
+                <td>Plain JavaScript (syntax, version history, closures, OOP methodologies, etc.), events</td>
+                <td>Plain JavaScript (except OOP, XHR)</td>
+                <td>HW-2 (EC)</td>
+                <td>--</td>
+            </tr>
+            <tr id="week5">
+                <td>4</td>
+                <td>Mar. 5</td>
+                <td>Project 1 showcase, jQuery, DOM, design standards (Material), design templates (Bootstrap), JS framework
+                    overview/trends/considerations, introduction to front-end JavaScript framework of choice, front-end logging
+                </td>
+                <td>JavaScript (OOP)</td>
+                <td>HW-3, Project 1</td>
+                <td>HW-1, HW-2 (EC)</td>
+            </tr>
+            <tr id="week6">
+                <td>5</td>
+                <td>Mar. 12</td>
+                <td>AJAX, Consuming APIs (SOAP/REST, JSON, HTTP methods, response codes, MIME types), SPA overview, chosen JavaScript
+                    UI framework elaboration</td>
+                <td>TBD</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+            <tr id="week7">
+                <td>6</td>
+                <td>Mar. 19</td>
+                <td>Midterm review, Advanced HTML5 features, visualization libraries, animation, error reporting, analytics</td>
+                <td>--</td>
+                <td>Project 2</td>
+                <td>HW-3, Project 1</td>
+            </tr>
+            <tr id="week8">
+                <td>7</td>
+                <td>Mar. 26</td>
+                <td>Catch up, Project 2 collaboration time</td>
+                <td>TBD</td>
+                <td>HW-4</td>
+                <td>Midterm</td>
+            </tr>
+            <tr id="week9">
+                <td>--</td>
+                <td>(Skip Week)</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+            <tr id="week10">
+                <td>8</td>
+                <td>Apr. 9</td>
+                <td>Project 2 showcase, backend overview (web application architecture, languages and frameworks, MVC, LAMP,
+                    MEAN, etc.), introduction to backend framework of choice, server-side template rendering, logging</td>
+                <td>TBD</td>
+                <td>--</td>
+                <td>HW-4, Project 2</td>
+            </tr>
+            <tr id="week11">
+                <td>9</td>
+                <td>Apr. 16</td>
+                <td>Backend framework elaboration, databases (types, data modeling, CRUD, etc.), cloud hosting overview, cloud
+                    hosting setup</td>
+                <td>TBD</td>
+                <td>HW-8, Project 3</td>
+                <td>HW-7, Withdraw Deadline</td>
+            </tr>
+            <tr id="week12">
+                <td>10</td>
+                <td>Apr. 23</td>
+                <td>Publishing APIs, Asynchronous actions (emails, queues, cron, etc.), Real-time web (server push, JSONP, Websockets)
+                </td>
+                <td>TBD</td>
+                <td>HW-9</td>
+                <td>HW-8</td>
+            </tr>
+            <tr id="week13">
+                <td>11</td>
+                <td>Apr. 30</td>
+                <td>Permissions (authentication/authorization, hasing/salting, etc.), Security (OWASP top 10), OAUTH, search</td>
+                <td>TBD</td>
+                <td>HW-10</td>
+                <td>HW-9</td>
+            </tr>
+            <tr id="week14">
+                <td>12</td>
+                <td>May 7</td>
+                <td>Query Performance, Caching, CDNs, Load balancing, DNS, cloud hosting provider overview/td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>HW-10</td>
+            </tr>
+            <tr id="week15">
+                <td>13</td>
+                <td>May 14</td>
+                <td>Project showcase, final review, where to go from here (design, back end, games, etc.), making websites without
+                    making websites (CMSs)</td>
+                <td>--</td>
+                <td>--</td>
+                <td>Project 3</td>
+            </tr>
+            <tr id="week16">
+                <td>--</td>
+                <td>TBA</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>Final</td>
+            </tr>
+
+        </table>
+    </p>
+
+</body>
+
+</html>

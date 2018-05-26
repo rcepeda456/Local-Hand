@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+       
+         
+          
+        <link href="http://allfont.net/allfont.css?fonts=futura-normal" rel="stylesheet" type="text/css" />
+        <link href="http://allfont.net/allfont.css?fonts=futura-bold" rel="stylesheet" type="text/css" />
+        <link href="http://allfont.net/allfont.css?fonts=kaufmann-bt" rel="stylesheet" type="text/css" />
+        <link href="http://allfont.net/allfont.css?fonts=souvenir" rel="stylesheet" type="text/css" />
+    <title>Web Programming</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="CMP 464 - Web Programming", "homePage">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Doug Accatino, Claudia Rodriguez">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="chatlio.js"></script>
+    <script type="text/javascript" src="scrollBtn.js"></script>
+    <script type="text/javascript" src="navBar.js"></script>
+
+</head>
+
+<div class="topnav" id="myTopnav">
+        <a href="homePage.html" class="active">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="courseRequirements.html">Course Requirements</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <h1>Web Programming - CMP 464</h1>
+
+    <div id="chatlioWidgetPlaceholder" style="margin: auto; height: 400px; width: 400px;"></div>
+
+    <hr>
+    <h2>Rationelle</h2>
+    <p class="Rationelle">
+        In a world increasingly-connected by the Internet, the World Wide Web has emerged as a nearly-ubiquitous platform for personal
+        communication, business operations, and global information sharing.
+        <br>
+        <br> Any student of a technological field-and especially students of computer science/engineering-would be well-served
+        by developing an understanding of the web and a proficiency in creation of the applications that it enables.
+
+    </p>
+
+    <h2>Format and Procedures</h2>
+    <hr>
+    <p name="Format and Procedures">
+        This course meets once per week for a 3.5-hour period without an additional lab component. This course is intended to reflect
+        industry norms as much as possible; to that end, project delivery and collaboration are emphasized over attendance
+        and summative assessment.
+    </p>
+    <h3>Assumptions</h3>
+
+    <p name="Assumptions">
+        This course has no prerequisite courses; however, students are expected to be proficient in general programming principles
+        and able to code in at least one language. Such experience will ensure that students are able to expediently learn
+        new programming languages as they are introduced in this course.
+        <br>
+        <br> No web development experience is required; this course assumes that students do not have any prior knowledge of
+        the subject matter.
+        <br>
+        <br> Note that this is not a web design course. Presentation is covered and general design tools will be discussed, but
+        the emphasis is on application programming using the web as a platform.
+        </p>
+
+        <hr>
+        <h2>Academic Integrity</h2>
+        <p name="Academic Integrity">
+            This course observed and upholds the [|Needs to be link||CUNY Policy on Academic Integrity (Accessible Plain Text)|||]. Each
+            student in this course is expected to abide by this policy. Any work submitted by a student in this course for
+            academic credit will be the student's own work. Collaboration is allowed where assignments are designated as
+            group projects. You are encouraged to study together and to discuss information and concepts covered in lecture
+            and the sections with other students. You can give "consulting" help to or receive "consulting" help from such
+            students. However, this permissible cooperation should never involve one student having possession of a copy
+            of all or part of work done by someone else, in the form of an e-mail, an e-mail attachment file, a diskette,
+            or a hard copy. Should copying occur, both the student who copied work from another student and the student who
+            gave material to be copied will both automatically receive a zero for the assignment. Penalty for violation of
+            this Code can also be extended to include failure of the course and University disciplinary action. During examinations,
+            you must do your own work. Talking or discussion is not permitted during the examinations, nor may you compare
+            papers, copy from others, or collaborate in any way. Any collaborative behavior during the examinations will
+            result in failure of the exam, and may lead to failure of the course and University disciplinary action.
+        </p>
+        <h2>Reasonable Accommodations and Academic Adjustments</h2>
+        <hr>
+        <p name="Reasonable Accommodations and Academic Adjustments">
+            In compliance with (CUNY policy (PDF))LINK and equal access laws, I am available to discuss appropriate academic accommodations
+            that may be required for student with disabilities.
+        </p>
+        <h2>Inclusivity Statement</h2>
+        <hr>
+        <p>
+            We understand that our members represent a rich variety of backgrounds and perspectives. The Computer Science department
+            is committed to providing an atmosphere for learning that respects diversity. While working together to build
+            this community we ask all members to:
+            <ul>
+                <li>Share their unique experiences, valus and beliefes</li>
+                <li>Be open to the views of others</li>
+                <li>honor the uniqueness of their colleagues</li>
+                <li>appreciate the opportunity that we have to learn from each other in this community</li>
+                <li>value each other's opinions and communicate in a respectful manner</li>
+                <li>keep confidential discussions that the community has of a personal (or professional) nature</li>
+                <li>use this opportunity together to discuss ways in which we can create an inclusive environment in this course
+                    and across the CUNY community</li>
+            </ul>
+        </p>
+
+</body>
+<!--
+
+    ***-MOVED TO SEPERATE .JS FILE-***
+
+
+<script type="text/javascript">
+    window._chatlio = window._chatlio || [];
+    !function () {
+        var t = document.getElementById("chatlio-widget-embed"); if (t && window.ChatlioReact && _chatlio.init) return void _chatlio.init(t, ChatlioReact); for (var e = function (t) { return function () { _chatlio.push([t].concat(arguments)) } }, i = ["configure", "identify", "track", "show", "hide", "isShown", "isOnline", "page", "open", "showOrHide"], a = 0; a < i.length; a++)_chatlio[i[a]] || (_chatlio[i[a]] = e(i[a])); var n = document.createElement("script"), c = document.getElementsByTagName("script")[0]; 
+        n.id = "chatlio-widget-embed", n.src = "https://w.chatlio.com/w.chatlio-widget.js", 
+        n.async = !0, 
+        n.setAttribute("data-embed-version", "2.3");
+        n.setAttribute('data-widget-options', '{"embedInline": true}');
+        n.setAttribute('data-widget-id', '35c3647e-e369-468b-721a-d90e425fb824');
+        c.parentNode.insertBefore(n, c);
+    }();
+</script>
+
+ When the user scrolls down 20px from the top of the document, show the button
+<script>window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+
+ Add this div in your DOM where you want the inline div to be inserted by Chatlio, change height/width to fit your needs
+<div id="chatlioWidgetPlaceholder" style="margin: auto; height: 400px;width:400px;"></div> 
+
+-->
+
+</html>
